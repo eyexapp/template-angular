@@ -1,0 +1,59 @@
+{
+  "app": {
+    "title": "MyApp"
+  },
+  "home": {
+    "title": "MyApp'e Hoş Geldiniz",
+    "subtitle": "Temiz mimari, durum yönetimi, çoklu dil desteği ve Tailwind CSS ile profesyonel bir Angular şablonu.",
+    "getStarted": "Başla",
+    "learnMore": "Daha Fazla",
+    "features": "Yerleşik Özellikler",
+    "featureList": {
+      "signals": {
+        "title": "Angular Signals",
+        "description": "Angular'ın yerleşik sinyalleriyle ince taneli reaktiviteye sahip reaktif durum yönetimi."
+      },
+      "standalone": {
+        "title": "Standalone Bileşenler",
+        "description": "%100 standalone bileşen, directive ve pipe ile modülsüz mimari."
+      },
+      "tailwind": {
+        "title": "Tailwind CSS",
+        "description": "Tutarlı tasarım belirteçleriyle hızlı UI geliştirme için utility-first CSS framework."
+      },
+      "i18n": {
+        "title": "Uluslararasılaştırma",
+        "description": "Sorunsuz yerelleştirme için ngx-translate ile çoklu dil desteği."
+      },
+      "stateManagement": {
+        "title": "NgRx Signal Store",
+        "description": "Öngörülebilir uygulama durumu için hafif, sinyal tabanlı durum yönetimi."
+      },
+      "cleanArch": {
+        "title": "Temiz Mimari",
+        "description": "Core, shared, features ve layouts katmanlarıyla iyi organize edilmiş proje yapısı."
+      }
+    }
+  },
+  "auth": {
+    "login": "Giriş Yap",
+    "logout": "Çıkış Yap",
+    "register": "Kayıt Ol",
+    "loginTitle": "Hesabınıza giriş yapın",
+    "loginSubtitle": "Devam etmek için bilgilerinizi girin",
+    "email": "E-posta",
+    "emailPlaceholder": "siz@ornek.com",
+    "password": "Şifre",
+    "passwordPlaceholder": "••••••••",
+    "noAccount": "Hesabınız yok mu?",
+    "forgotPassword": "Şifrenizi mi unuttunuz?"
+  },
+  "notFound": {
+    "title": "Sayfa Bulunamadı",
+    "description": "Aradığınız sayfa mevcut değil veya taşınmış.",
+    "backHome": "Ana Sayfaya Dön"
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır."
+  }
+}

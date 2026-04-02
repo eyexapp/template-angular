@@ -1,0 +1,45 @@
+@import 'tailwindcss';
+
+/* ========================================================================
+   Design Tokens (CSS Custom Properties)
+   ======================================================================== */
+:root {
+  /* Colors */
+  --color-primary: theme('colors.blue.600');
+  --color-primary-hover: theme('colors.blue.700');
+  --color-secondary: theme('colors.gray.600');
+  --color-success: theme('colors.green.600');
+  --color-warning: theme('colors.yellow.500');
+  --color-danger: theme('colors.red.600');
+
+  /* Typography */
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  /* Spacing */
+  --header-height: 4rem;
+}
+
+/* ========================================================================
+   Base reset & body
+   ======================================================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  color: theme('colors.gray.900');
+  background-color: theme('colors.white');
+}
